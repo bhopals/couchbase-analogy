@@ -1,0 +1,28 @@
+
+CouchBase:
+
+NOSQL Data store.
+Here NOSQL means NOT ONLY SQL
+
+What is NoSQL ?
+ - NoSQL - Not only SQL
+ - Non Relational database 
+
+ Advantages of NoSql Ovwer RDBMS
+
+  - Handles Big Data
+  - Data Models - No predefined schema
+  - Data Structure - NoSql Handles unstructured database
+  - Cheaper to manage
+  - Scaling - Scale out / Horizental scaling 
+
+
+
+
+Types of NoSql Databases
+
+ - Document Databases [ MongoDB, CouchDB] - Dynamic Doc object
+ - Column Databases [ Apache Casandara] - Analytics
+ - Key-Value stores [ Redis, Couchbase Server] - For Huge Data
+ - Cache Systems [ Redis, MemCache]
+ - Graph Databases [ Neo4J] - social network
