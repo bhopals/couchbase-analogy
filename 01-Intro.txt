@@ -1,6 +1,17 @@
 
 CouchBase:
 
+
+Couchbase Server is a NoSQL document database for interactive web applications. It has a flexible data model, is easily scalable, provides consistent high performance and is capable of serving application data with 100% uptime.
+
+Couchbase is the merge of two popular NOSQL technologies:
+Couchbase is a merge between CouchDB and Membase to create an easily scalable and high performance database
+
+    -   Membase, which provides persistence, replication, sharding to the high performance memcached technology
+
+    -   CouchDB, which pioneers the document oriented model based on JSON
+
+
 NOSQL Data store.
 Here NOSQL means NOT ONLY SQL
 
@@ -26,3 +37,49 @@ Types of NoSql Databases
  - Key-Value stores [ Redis, Couchbase Server] - For Huge Data
  - Cache Systems [ Redis, MemCache]
  - Graph Databases [ Neo4J] - social network
+
+
+ Couchbase server cluster which can be connected ACTIVE-ACTIVE or ACTIVE-PASSIVE topolgy providing Cross Data Center Replication (XDCR).
+ Disaster Recovery
+ Geographically availability
+
+ Bucket Types: 
+
+ -  Couchbase buckets: These store data persistently, as well as in memory. They allow data to be automatically replicated for high availability, using the Database Change Protocol (DCP); and dynamically scaled across multiple clusters, by means of Cross Datacenter Replication (XDCR).
+ -  Empheral buckets : Only in RAM. For better serving of I/ONLY
+ -  Memcached buckets: For caching
+
+
+ Core Database Engine 
+    - Multi-Dimensional Scalability
+    - Memory First Architecture
+
+
+Couchbase High Level Architecture.
+
+Coushbase nodes are identical
+ it has Cluster Manager (Node / Cluster Coordination, REST API, Web UI), Cache and Storage.
+
+ Six independently scalable services
+  - Data  :
+  - Query  :
+  - Index  :
+  - Search  :
+  - Eventing  : 
+  - Analytics :
+ 
+
+
+Key   - 25 bytes (Max Size)
+Value - 20MB (Max Size)
+
+Glossary/Terminology:
+
+Node - Couchbase Server Instance
+Cluster - Networked set of nodes, sharing distributed buckets.
+Bucket  - Logical set (Keyspace) of uniquely keyed documents, evenly spread across cluster.
+
+
+Scalably and multi Dimensional clusters
+
+http://horicky.blogspot.com/2008/10/couchdb-implementation.html?_sm_au_=iVV06tRqnTRV3rsb
