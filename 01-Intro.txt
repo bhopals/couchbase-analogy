@@ -105,8 +105,12 @@ In case of cluster when you are adding new node. In the SERVER option, we need t
 SERVER --> REBALANC 
 
 Whenever you remove the node, ensure you dont remove the node that you are logged into.
- 
 
+
+ Also, in case of Failover, hit the REBALANCE button to take out the data stored on the failed node to have these stored and 
+ distribut these on active nodes.
+
+Modern Architecture Multi Dimensional scaling 
 
 
 
