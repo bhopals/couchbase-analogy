@@ -82,4 +82,34 @@ Bucket  - Logical set (Keyspace) of uniquely keyed documents, evenly spread acro
 
 Scalably and multi Dimensional clusters
 
+multi-model NoSQL document-oriented database 
+
+ Couchbase Server is designed to provide easy-to-scale key-value or JSON document access with low latency and high sustained throughput
+
 http://horicky.blogspot.com/2008/10/couchdb-implementation.html?_sm_au_=iVV06tRqnTRV3rsb
+
+Couchbase autonomous operator
+
+Multidimensional scaling
+
+Inbuild Caching Mechanism
+
+Disk Queue
+REplication Queue 
+Manager Cache 
+
+Each Bucket has 1024 Virtual Bucket sets
+
+
+In case of cluster when you are adding new node. In the SERVER option, we need to REBALANCE the node to distribute the load and data.
+SERVER --> REBALANC 
+
+Whenever you remove the node, ensure you dont remove the node that you are logged into.
+ 
+
+
+
+
+Cache  Miss
+Cache Eject
+Full Rejection / partial rejection - Remove all the docs from CAche 
